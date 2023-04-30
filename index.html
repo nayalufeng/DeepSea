@@ -1,96 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>深海 - 宣传网站</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #f1f1f1;
-		}
-		header {
-			background-color: #333;
-			color: white;
-			padding: 20px;
-			text-align: center;
-			font-size: 36px;
-			font-weight: bold;
-			text-shadow: 2px 2px #666;
-		}
-		nav {
-			background-color: #444;
-			color: white;
-			padding: 10px;
-			text-align: center;
-			font-size: 18px;
-			font-weight: bold;
-		}
-		nav a {
-			color: white;
-			text-decoration: none;
-			margin: 10px;
-			padding: 5px;
-			border-radius: 5px;
-			background-color: #666;
-			transition: background-color 0.3s ease;
-		}
-		nav a:hover {
-			background-color: #999;
-		}
-		section {
-			background-color: white;
-			color: #333;
-			padding: 20px;
-			margin: 20px;
-			border-radius: 10px;
-			box-shadow: 2px 2px #666;
-		}
-		footer {
-			background-color: #333;
-			color: white;
-			padding: 10px;
-			text-align: center;
-			font-size: 14px;
-			font-weight: bold;
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-		}
-	</style>
+	<title>深海 - 宣传网站</title>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
 	<header>
-		深海 - 宣传网站
+		<nav>
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">故事情节</a></li>
+				<li><a href="#">角色介绍</a></li>
+				<li><a href="#">预告片</a></li>
+				<li><a href="#">评论</a></li>
+			</ul>
+		</nav>
+		<h1>深海</h1>
+		<p>一部关于海底冒险的动画电影</p>
 	</header>
-	<nav>
-		<a href="#story">故事</a>
-		<a href="#characters">角色</a>
-		<a href="#trailers">预告片</a>
-		<a href="#gallery">画廊</a>
-	</nav>
-	<section id="story">
-		<h2>故事</h2>
-		<p>《深海》是一部动画电影，讲述了一个勇敢的潜水员探索海底的冒险故事。主人公杰克·约翰逊（Jack Johnson）是一名年轻的潜水员，他被聘请前往一个深不可测的海底洞穴，寻找一件神秘的宝藏。在旅途中，他遭遇了各种挑战和危险，但他不屈不挠，最终找到了宝藏，也发现了一个重要的秘密。</p>
-	</section>
-	<section id="characters">
-		<h2>角色</h2>
-		<h3>杰克·约翰逊</h3>
-		<p>杰克	·约翰逊是本片的主角，一名勇敢的潜水员，他被聘请前往海底寻找一件神秘的宝藏。</p>
-	<h3>安娜·史密斯</h3>
-	<p>安娜是一名年轻的潜水员，是杰克的搭档和好友，她一直支持杰克，帮助他克服了许多困难。</p>
-</section>
-<section id="trailers">
-	<h2>预告片</h2>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/ABCDEFGHIJK" title="深海 预告片" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</section>
-<section id="gallery">
-	<h2>画廊</h2>
-	<img src="images/deepsea1.jpg" alt="深海画廊图片1" width="300" height="200">
-	<img src="images/deepsea2.jpg" alt="深海画廊图片2" width="300" height="200">
-	<img src="images/deepsea3.jpg" alt="深海画廊图片3" width="300" height="200">
-</section>
-<footer>
-	版权所有 © 2023 深海电影公司
-</footer>
-
+	<main>
+		<section>
+			<h2>故事情节</h2>
+			<p>深海是一部讲述海底冒险的动画电影，故事讲述了一个勇敢的潜水员探索海底的奇幻之旅。在这个旅程中，他将遇到各种危险和挑战，同时也会结识新的朋友。</p>
+		</section>
+		<section>
+			<h2>角色介绍</h2>
+			<ul>
+				<li>
+					<img src="images/character1.jpg" alt="角色1">
+					<h3>角色1</h3>
+					<p>描述角色1的介绍</p>
+				</li>
+				<li>
+					<img src="images/character2.jpg" alt="角色2">
+					<h3>角色2</h3>
+					<p>描述角色2的介绍</p>
+				</li>
+				<li>
+					<img src="images/character3.jpg" alt="角色3">
+					<h3>角色3</h3>
+					<p>描述角色3的介绍</p>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>预告片</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</section>
+		<section>
+			<h2>评论</h2>
+			<blockquote>
+				<p>“深海是一部非常好看的电影，剧情紧凑、画面精美，非常值得一看！”</p>
+				<footer>- 影评人士A</footer>
+			</blockquote>
+			<blockquote>
+				<p>“这是我今年看过最棒的动画电影，期待着它的续集！”</p>
+				<footer>- 影评人士B</footer>
+			</blockquote>
+		</section>
+	</main>
+	<footer>
+		<p>版权所有 © 2023 深海电影制作公司</p>
+	</footer>
+</body>
+</html>
